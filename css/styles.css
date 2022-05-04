@@ -1,0 +1,420 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+a{
+  font-size: 1.5rem;
+  color:#EEEBDD;
+}
+
+a:hover{
+  color: #EEEBDD;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 300;
+}
+
+/* Headings */
+
+h1{
+  font-size: 4rem;
+  line-height: 5rem;
+  display: inline;
+}
+
+h2{
+  font-size: 2.7rem;
+  line-height: 3rem;
+}
+
+h3{
+  font-size: 2.7rem;
+}
+
+h4{
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+h5{
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+p{
+  margin-top: 4%;
+  font-size: 2.2rem; 
+}
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+/* Button */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 99;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: rgb(207, 198, 198);
+  color: #00000080;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(183, 172, 172);
+}
+
+/* Sections */
+
+.light-section{
+  background-color: #EEEBDD;
+  color: #810000;
+}
+
+.red-section{
+  background-color: #630000;
+  color: #EEEBDD;
+}
+
+/* Title Section */
+
+.names{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 2%;
+  text-align: center;
+}
+
+/* Navbar Section */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5rem;
+}
+
+.navbar-collapse {
+  flex-grow: 0.5;
+  align-items: center;
+}
+
+.navbar{
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(207, 198, 198);
+}
+
+.navbar-brand{
+  color: #810000;
+}
+
+.nav-item{
+  padding: 0 auto;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: #630000;
+}
+
+.navbar-brand{
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+/* Clock */
+
+.clock{
+  color:#630000; 
+  font-size: 3.5rem; 
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-block{
+  padding: 10px;
+  margin: 10px;
+}
+
+.clock-text{
+  font-size: 1rem; 
+}
+
+/* Features */
+
+#features{
+  position: relative;
+}
+
+.feature-box{
+  margin: 50px 0;
+}
+
+.cardapio{
+  margin: 50px auto;
+  text-align: left;
+}
+
+.row{
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.card{
+  margin: 2rem;
+}
+
+.card-img-top{
+  margin-top: 1rem;
+}
+
+.card-text{
+  font-size: 1.5rem;
+  color:#810000;
+}
+
+.map{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.mapouter{
+  width: 90%;
+}
+
+.local > p{
+  margin: 1rem 0;
+}
+
+
+/* Nav Details */
+
+.navbar{
+  position: absolute;
+}
+
+/* Gift */
+
+.gift-image{
+  width: 10%;
+}
+
+.gift-image:hover{
+  opacity: 0.8;
+}
+
+/* Local */
+
+.local-image{
+  margin: 20px;
+  width: 40%;
+  border-radius: 1%;
+}
+
+/* Cardápio */
+
+.list-group{
+  padding: 0;
+}
+
+.list-group-item{
+  padding: 2rem;
+}
+
+.sombra{
+  box-shadow: 10px 10px 10px rgba(91, 89, 89, 0.5);
+}
+
+/* Testimonials */
+
+#testimonials{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial-image{
+  margin: 20px;
+  width: 20%;
+  border-radius: 1%;
+}
+
+.carousel{
+  padding-top: 0;
+}
+
+/* CTA Section */
+
+#cta > h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 2%;
+}
+
+.btn-cta{
+  font-size: 1rem;
+  margin: 5% 1% 3%;
+}
+
+/* Agenda */
+
+.rose-section{
+  background-color: rgb(207, 198, 198);
+}
+
+.odia{
+  display: flex;
+  flex-direction: column;
+}
+
+.odia-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.odia-subitem{
+  width: 200px;
+}
+
+.img-agenda{
+  width: 60px;
+}
+
+/* Estacionamento */
+
+.btn{
+  background-color: #630000;
+  border-color: #810000;
+}
+
+.btn:hover{
+  background-color: #962424;
+  border-color: #913b3b;
+}
+
+/* Footer Section */
+
+.socialmidia {
+  color:#EEEBDD;
+  margin: 4% 1% 2%;
+}
+
+@media only screen and (max-width: 1450px){
+    h1{
+      font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+  .names{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1046px){
+  .nav-link{
+    padding-right: 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 941px){
+  .names{
+    flex-direction: column;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 2rem;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gift-image{
+    width: 15%;
+  }
+
+  .local-image{
+    margin: 20px;
+    width: 80%;
+    border-radius: 1%;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .odia{
+    flex-direction: column;
+  }
+
+  .testimonial-image{
+    width: 50%;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar-toggler{
+    color: black;
+  }
+
+  h1{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .container-fluid{
+    padding: 2% 3%;
+  }
+
+  .title{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title > div{
+    max-width: 100vw;
+  }
+
+  .row{
+    font-size: 1rem;
+  }
+
+  .testimonial-image{
+    margin: 20px;
+    width: 30%;
+    border-radius: 1%;
+  }
+}
